@@ -13,6 +13,33 @@
 
 ---
 
+## 配套文件（本仓库）
+
+### 固件
+
+| 文件 | 版本 | 大小 | 说明 |
+|---|---|---|---|
+| `firmware/openwrt-mediatek-filogic-cmcc_rax3000m-emmc-squashfs-sysupgrade.bin` | OpenWrt 25.12.2（2026.04.01，编译者 shiyu1314） | 34.8 MiB | 本方案实际使用的固件，可直接 sysupgrade 刷入 |
+
+> 其他文件（preloader / bl31-uboot.fip / gpt.bin / initramfs-recovery.itb）请从官方源下载，见第 1 章。
+
+### 工具
+
+| 文件 | 用途 | 归属 |
+|---|---|---|
+| `tools/istore-reinstall.run` | iStore 商店安装脚本 | linkease / iStore |
+| `tools/quickstart.apk` | iStoreOS 首页后端（quickstart 0.13.0） | iStoreOS |
+| `tools/luci-app-quickstart.apk` | 首页 LuCI 页面（0.12.10） | iStoreOS |
+| `tools/quickstart-zh.apk` | 首页中文语言包 | iStoreOS |
+| `tools/alist.apk` | Alist 主程序（3.44.0，aarch64） | Alist |
+| `tools/luci-alist.apk` | Alist LuCI 管理页 | iStoreOS |
+| `tools/alist-zh.apk` | Alist 中文语言包 | iStoreOS |
+| `tools/plink.exe` | Windows 下带密码 SSH 工具（用于 RouterOS / NAS 命令行操作） | PuTTY 项目 |
+
+> 所有第三方组件的版权归各自作者所有，此处仅作离线备份，便于复现。工具包均已实际验证可用。
+
+---
+
 ## 0. 前置认知（重要）
 
 1. **iStoreOS 官方不支持 RAX3000M**。官方镜像仅覆盖 x86 与少量 ARM 机型。本方案为「OpenWrt + iStore 商店 + iStoreOS 首页组件」的等效实现，不是刷 iStoreOS 固件。

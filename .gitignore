@@ -1,15 +1,14 @@
-# 临时下载与工具文件，不入库
-*.apk
-*.ipk
-*.exe
-*.run
-*.tar.gz
-*.bin
-*.fip
-*.itb
+# 根目录临时下载文件不入库（已归档到 tools/ 与 firmware/）
+/*.apk
+/*.exe
+/*.run
+/*.tar.gz
+/*.bin
+/*.fip
+/*.itb
 ros-cmd.txt
-plink.exe
-alist-arm64.tar.gz
-istore-reinstall.run
 rax3000m-firmware/
 _work/
+
+# 本地工作区数据不透出
+.workbuddy/
