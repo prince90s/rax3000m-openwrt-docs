@@ -13,6 +13,18 @@
 
 ---
 
+## 实际效果
+
+**iStore 商店（全部软件）**
+
+![iStore 商店](images/screenshot-istore.png)
+
+**iStoreOS 风格首页（Quickstart 仪表盘）**
+
+![Quickstart 首页](images/screenshot-quickstart.png)
+
+---
+
 ## 配套文件（本仓库）
 
 ### 固件
