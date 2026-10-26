@@ -1,4 +1,4 @@
-# CMCC RAX3000M 玩客云（eMMC 版）刷 OpenWrt 并部署 iStoreOS 商店 / 首页 / eMMC 扩容
+# CMCC RAX3000M（eMMC 版）刷 OpenWrt 并部署 iStoreOS 商店 / 首页 / eMMC 扩容
 ## 实施技术文档
 
 | 项目 | 内容 |
